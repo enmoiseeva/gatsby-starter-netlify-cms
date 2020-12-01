@@ -1,0 +1,48 @@
+.navbar-logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar {
+  padding: 20px 40px;
+}
+
+.navbar-menu {
+  @media screen and (min-width: 1024px) {
+    justify-content: center;
+    .navbar-start {
+      justify-content: center;
+      margin-right: 0;
+    }
+  }
+
+  .navbar-item {
+    display: block;
+    padding: 19px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      overflow: hidden;
+      height: 1px;
+      width: 0;
+      left: 15px;
+      bottom: 10px;
+      background: transparent;
+      transition: width 280ms ease-in-out 400ms;
+    }
+    &.active {
+      &:after {
+        background: rgba(0, 0, 0, 0.4);
+        width: calc(100% - 30px);
+      }
+    }
+  }
+}

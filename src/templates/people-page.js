@@ -2,16 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import ResearchBlurb from "../components/ResearchBlurbs";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({
+export const PeoplePageTemplate = ({
   title,
   subtitle,
-  blurbs_one,
-  blurbs_two,
   image,
+  header,
+  header2,
+  text2,
+  content,
 }) => {
   return (
     <section className="section section--gradient">
@@ -21,44 +22,46 @@ export const AboutPageTemplate = ({
             {title}
           </h2>
           <HTMLContent content={subtitle} />
-          <ResearchBlurb gridItems={blurbs_one.blurbs} />
+          <h2>{header}</h2>
           <PreviewCompatibleImage imageInfo={image} />
-          <ResearchBlurb gridItems={blurbs_two.blurbs} />
+          <HTMLContent content={content} />
+          <h2>{header2}</h2>
+          <HTMLContent content={text2} />
 
       </div>
     </section>
   );
 };
 
-AboutPageTemplate.propTypes = {
+PeoplePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
-  blurbs_one: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  header: PropTypes.string,
+  header2: PropTypes.string,
+  text2: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  blurbs_two: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  content: PropTypes.node,
 };
 
-const AboutPage = ({ data }) => {
+const PeoplePage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <PeoplePageTemplate
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
-        blurbs_one={post.frontmatter.blurbs_one}
-        blurbs_two={post.frontmatter.blurbs_two}
+        header={post.frontmatter.header}
+        header2={post.frontmatter.header2}
+        text2={post.frontmatter.text2}
         image={post.frontmatter.image}
+        content={post.html}
       />
     </Layout>
   );
 };
 
-AboutPage.propTypes = {
+PeoplePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -66,34 +69,26 @@ AboutPage.propTypes = {
   }),
 };
 
-export default AboutPage;
+export default PeoplePage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const peoplePageQuery = graphql`
+  query PeoplePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
+      html
       frontmatter {
         title
         subtitle
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 180, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
-        blurbs_one {
-          blurbs {
-            title
-            text
-          }
-        }
-        blurbs_two {
-          blurbs {
-            title
-            text
-          }
-        }
+        header
+        header2
+        text2
       }
     }
   }
