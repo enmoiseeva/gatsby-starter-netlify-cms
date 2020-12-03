@@ -128,13 +128,30 @@ export const PublicationsPageTemplate = ({ title, content }) => {
   }, []);
 
   return (
-    <section className="section section--gradient">
+    <section>
+      <div className="header-section mb-5 ml-mobile-5">
+        <div className="container">
+          <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
+            {title}
+          </h2>
+          <HTMLContent content={" "} className="header-section-text" />
+        </div>
+      </div>
       <div className="container">
-        <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-          {title}
-        </h2>
-        <HTMLContent content={content} />
-        <HTMLContent content={publications} />
+        <div className="padding-section">
+          <div className="title is-size-3 mb-0">
+            <HTMLContent content={content} />
+          </div>
+          <div className="mb-4">
+            <b>
+              For conference publications and citations please use{" "}
+              <a href="https://scholar.google.com/citations?hl=en&user=NtQe0-MAAAAJ&view_op=list_works&sortby=pubdate">
+                Google Scholar
+              </a>
+            </b>
+          </div>
+          <HTMLContent content={publications} className="pb-5 mb-5" />
+        </div>
       </div>
     </section>
   );

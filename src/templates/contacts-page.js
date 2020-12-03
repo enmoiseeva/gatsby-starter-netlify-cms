@@ -10,13 +10,22 @@ import { Map } from "../components/Map";
 
 export const ContactsPageTemplate = ({ content, title }) => {
   return (
-    <section className="section">
+    <section>
+      <div className="header-section mb-5 ml-mobile-5">
+        <div className="container">
+          <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
+            {title}
+          </h2>
+          <HTMLContent content={" "} className="header-section-text" />
+        </div>
+      </div>
       <div className="container content">
-        <h1>{title}</h1>
-        <div className="contacts">
-          <HTMLContent content={content} />
-          <Social />
-          <Map />
+        <div className="padding-section">
+          <div className="contacts mb-5 pb-5 mt-4">
+            <HTMLContent content={content} />
+            <Social />
+            <Map />
+          </div>
         </div>
       </div>
     </section>

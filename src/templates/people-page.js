@@ -15,19 +15,33 @@ export const PeoplePageTemplate = ({
   content,
 }) => {
   return (
-    <section className="section section--gradient">
-      <div className="container">
-
-          <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+    <section>
+      <div className="header-section mb-5 ml-mobile-5">
+        <div className="container">
+          <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
             {title}
           </h2>
-          <HTMLContent content={subtitle} />
-          <h2>{header}</h2>
-          <PreviewCompatibleImage imageInfo={image} />
-          <HTMLContent content={content} />
-          <h2>{header2}</h2>
-          <HTMLContent content={text2} />
+          <HTMLContent content={subtitle} className="header-section-text" />
+        </div>
+      </div>
+      <div className="container">
+        <div className="padding-section">
+          <div className="people-main">
+            <h2 className="title is-size-4">{header}</h2>
+            <div className="is-flex">
+              <div className="people-main-image">
+                <PreviewCompatibleImage imageInfo={image} />
+              </div>
+              <HTMLContent content={content} className="people-main-text" />
+            </div>
+          </div>
 
+          <h2 className="title is-size-4 mt-5 pt-3">{header2}</h2>
+          <HTMLContent
+            content={text2}
+            className="people-other-text mb-5 pb-5"
+          />
+        </div>
       </div>
     </section>
   );

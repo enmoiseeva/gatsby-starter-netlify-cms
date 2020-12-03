@@ -1,7 +1,7 @@
 ---
 templateKey: contacts-page
 path: /contacts
-title: Contacts
+title: Contact Us
 ---
 Tatiana Moiseeva, PhD\
 Senior Research Scientist\

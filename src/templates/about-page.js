@@ -14,17 +14,23 @@ export const AboutPageTemplate = ({
   image,
 }) => {
   return (
-    <section className="section section--gradient">
-      <div className="container">
-
-          <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+    <section>
+      <div className="header-section mb-5 ml-mobile-5">
+        <div className="container">
+          <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
             {title}
           </h2>
-          <HTMLContent content={subtitle} />
-          <ResearchBlurb gridItems={blurbs_one.blurbs} />
-          <PreviewCompatibleImage imageInfo={image} />
-          <ResearchBlurb gridItems={blurbs_two.blurbs} />
+          <HTMLContent content={subtitle} className="header-section-text" />
+        </div>
+      </div>
 
+      <div className="container">
+        <ResearchBlurb gridItems={blurbs_one.blurbs} className="mb-5" />
+        <PreviewCompatibleImage imageInfo={image} />
+        <ResearchBlurb
+          gridItems={blurbs_two.blurbs}
+          className="bigger-headers mt-3 pb-5 mb-5"
+        />
       </div>
     </section>
   );
