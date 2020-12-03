@@ -93,6 +93,15 @@ body {
   text-align: justify;
 }
 
+.people-main {
+  .is-flex {
+    flex-wrap: wrap;
+    @include tablet {
+      flex-wrap: nowrap;
+    }
+  }
+}
+
 .people-main-image {
   width: 180px;
   min-width: 180px;
@@ -102,8 +111,13 @@ body {
 }
 
 .people-main-text {
-  margin-left: 50px;
   line-height: 30px;
+  margin-left: 0;
+  margin-top: 20px;
+  @include tablet {
+    margin-left: 50px;
+    margin-top: 0;
+  }
   a {
     color: #2a2a2a;
     opacity: 0.5;
