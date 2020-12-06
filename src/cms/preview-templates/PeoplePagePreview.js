@@ -12,9 +12,9 @@ const PeoplePagePreview = ({ entry, getAsset }) => {
         subtitle={data.subtitle}
         header={data.header}
         header2={data.header2}
-        text2={data.text2}
         image={getAsset(data.image)}
-        content={getAsset('body')}
+        content={getAsset("body")}
+        blurbs={data.blurbs || []}
       />
     );
   } else {

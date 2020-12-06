@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { HTMLContent } from "../components/Content";
+import StudentBlurb from "../components/StudentBlurbs";
 
 export const PeoplePageTemplate = ({
   title,
@@ -11,8 +12,8 @@ export const PeoplePageTemplate = ({
   image,
   header,
   header2,
-  text2,
   content,
+  blurbs,
 }) => {
   return (
     <section>
@@ -37,9 +38,9 @@ export const PeoplePageTemplate = ({
           </div>
 
           <h2 className="title is-size-4 mt-5 pt-3">{header2}</h2>
-          <HTMLContent
-            content={text2}
-            className="people-other-text mb-5 pb-5"
+          <StudentBlurb
+            gridItems={blurbs}
+            className="bigger-headers mt-3 pb-5 mb-5"
           />
         </div>
       </div>
@@ -52,9 +53,9 @@ PeoplePageTemplate.propTypes = {
   subtitle: PropTypes.string,
   header: PropTypes.string,
   header2: PropTypes.string,
-  text2: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node,
+  blurbs: PropTypes.array,
 };
 
 const PeoplePage = ({ data }) => {
@@ -67,8 +68,8 @@ const PeoplePage = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         header={post.frontmatter.header}
         header2={post.frontmatter.header2}
-        text2={post.frontmatter.text2}
         image={post.frontmatter.image}
+        blurbs={post.frontmatter.blurbs}
         content={post.html}
       />
     </Layout>
@@ -100,9 +101,12 @@ export const peoplePageQuery = graphql`
             }
           }
         }
+        blurbs {
+          title
+          text
+        }
         header
         header2
-        text2
       }
     }
   }

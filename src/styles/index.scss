@@ -68,6 +68,12 @@
     padding-left: 25px;
     font-weight: bold;
   }
+  &.student-news {
+    .column-date {
+      padding-left: 0.75em;
+      max-width: 120px;
+    }
+  }
 }
 
 .index-twitter {

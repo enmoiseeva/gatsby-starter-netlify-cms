@@ -8,7 +8,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-
+local_backend: true
 media_folder: static/img
 public_folder: /img
 
@@ -60,7 +60,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: Header2, name: header2, widget: string}
-          - {label: Text2, name: text2, widget: text}
+          - {label: Blurbs, name: blurbs, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}]}
 
       - file: "src/pages/publications/index.md"
         label: "Publications"
