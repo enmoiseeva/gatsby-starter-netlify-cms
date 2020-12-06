@@ -2,10 +2,12 @@
 path: /people
 templateKey: people-page
 title: People
-subtitle: >
+subtitle: >-
   <p>Motivated bachelor and master degree students are welcome to join! Please
   email with inquiries.</p> <p>We are looking for a PhD student! Please apply <a
   href="https://taltech.glowbase.com/positions/199">here</a></p>
+
+  <p>If you are interested in doing a postdoc with us, we are happy to help you apply for a <a href="https://www.etag.ee/en/funding/mobility-funding/mobilitas-pluss/mobilitas-pluss-post-doctoral-researcher-grant/">postdoctoral fellowship</a>, please email with inquiries! </p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
