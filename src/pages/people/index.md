@@ -11,10 +11,12 @@ header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
 blurbs:
-  - title: 2019 - . . .
-    text: Hele Anderspuk, Master's Student
+  - title: 2021-...
+    text: Sameera Vipat, doctoral student
   - title: 2020 - . . .
     text: Sigvard Vällo, Bachelor's Student
+  - title: 2019 - . . .
+    text: Hele Anderspuk, Master's Student
 ---
 
 ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019. My research interests include the investigation of the initiation in DNA replication in human cells. During my postdoctoral training I have studied the effects of ATR inhibition in DNA replication initiation and discovered a mechanism of dormant origin suppression in the absence of DNA damage.
