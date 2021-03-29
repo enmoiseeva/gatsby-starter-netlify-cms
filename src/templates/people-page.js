@@ -14,6 +14,9 @@ export const PeoplePageTemplate = ({
   header2,
   content,
   blurbs,
+  header_block2,
+  image_block2,
+  text_block2,
 }) => {
   return (
     <section>
@@ -40,8 +43,17 @@ export const PeoplePageTemplate = ({
           <h2 className="title is-size-4 mt-5 pt-3">{header2}</h2>
           <StudentBlurb
             gridItems={blurbs}
-            className="bigger-headers mt-3 pb-5 mb-5"
+            className="bigger-headers mt-3 pb-5"
           />
+          <div className="people-main mt-5 pb-5 mb-5">
+            <h2 className="title is-size-4">{header_block2}</h2>
+            <div className="is-flex">
+              <div className="people-main-image">
+                <PreviewCompatibleImage imageInfo={image_block2} />
+              </div>
+              <HTMLContent content={text_block2} className="people-main-text" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -56,6 +68,9 @@ PeoplePageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node,
   blurbs: PropTypes.array,
+  header_block2: PropTypes.string,
+  image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  text_block2: PropTypes.string,
 };
 
 const PeoplePage = ({ data }) => {
@@ -71,6 +86,9 @@ const PeoplePage = ({ data }) => {
         image={post.frontmatter.image}
         blurbs={post.frontmatter.blurbs}
         content={post.html}
+        header_block2={post.frontmatter.header_block2}
+        image_block2={post.frontmatter.image_block2}
+        text_block2={post.frontmatter.text_block2}
       />
     </Layout>
   );
@@ -107,6 +125,9 @@ export const peoplePageQuery = graphql`
         }
         header
         header2
+        header_block2
+        image_block2
+        text_block2
       }
     }
   }
