@@ -11,16 +11,16 @@ header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
 blurbs:
-  - title: 2021-...
-    text: Sameera Vipat, doctoral student
   - title: 2020 - . . .
     text: Sigvard Vällo, Bachelor's Student
   - title: 2019 - . . .
     text: Hele Anderspuk, Master's Student
-header_block2: New team member
-image_block2: /img/taltech-logo.png
-text_block2: >-
-  <p>New team member bio</p>
+header_block2: Sameera Vipat, PhD student
+image_block2: /img/sameera.jpg
+text_block2: <p>I did a Master's in Microbiology, where I studied poxvirus-host
+  interactions and developed a method for recombinant vaccinia virus generation.
+  My PhD project will be focused on the roles that the protein Timeless plays in
+  the initiation of DNA replication in human cells.</p>
 ---
 
 ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019. My research interests include the investigation of the initiation in DNA replication in human cells. During my postdoctoral training I have studied the effects of ATR inhibition in DNA replication initiation and discovered a mechanism of dormant origin suppression in the absence of DNA damage.
