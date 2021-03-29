@@ -34,7 +34,7 @@ export const PeoplePageTemplate = ({
             <h2 className="title is-size-4">{header}</h2>
             <div className="is-flex">
               <div className="people-main-image">
-                <PreviewCompatibleImage imageInfo={image} />
+                <PreviewCompatibleImage imageInfo={{ image }} />
               </div>
               <HTMLContent content={content} className="people-main-text" />
             </div>
@@ -49,7 +49,7 @@ export const PeoplePageTemplate = ({
             <h2 className="title is-size-4">{header_block2}</h2>
             <div className="is-flex">
               <div className="people-main-image">
-                <PreviewCompatibleImage imageInfo={image_block2} />
+                <PreviewCompatibleImage imageInfo={{ image: image_block2 }} />
               </div>
               <HTMLContent content={text_block2} className="people-main-text" />
             </div>
@@ -126,7 +126,13 @@ export const peoplePageQuery = graphql`
         header
         header2
         header_block2
-        image_block2
+        image_block2 {
+          childImageSharp {
+            fluid(maxWidth: 180, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         text_block2
       }
     }
