@@ -39,7 +39,7 @@ export const PeoplePageTemplate = ({
               <HTMLContent content={content} className="people-main-text" />
             </div>
           </div>
-          <div className="people-main mt-5 pb-5 mb-5 pt-3">
+          <div className="people-main mt-5 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block2}</h2>
             <div className="is-flex">
               <div className="people-main-image">
@@ -49,10 +49,10 @@ export const PeoplePageTemplate = ({
             </div>
           </div>
 
-          <h2 className="title is-size-4 mt-5 pt-3">{header2}</h2>
+          <h2 className="title is-size-4  pt-3">{header2}</h2>
           <StudentBlurb
             gridItems={blurbs}
-            className="bigger-headers mt-3 pb-5"
+            className="bigger-headers mt-3 pb-5 mb-5"
           />
           
         </div>
