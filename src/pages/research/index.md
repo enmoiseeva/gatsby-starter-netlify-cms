@@ -22,7 +22,7 @@ blurbs_one:
         the fact that their knockouts are lethal, and knockdowns have severe
         effects on the cell cycle. Transient knockdowns with mAID system allows
         us to study the roles of these proteins more easily.
-image: /img/box_orig.png
+image: /img/inhibitors.png
 blurbs_two:
   blurbs:
     - title: New components
