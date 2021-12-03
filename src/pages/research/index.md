@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /research
 title: Research
-subtitle: How does DNA duplication start in human cells?
+subtitle: How does DNA replication start in human cells?
 blurbs_one:
   blurbs:
     - title: Using ATR and WEE1 inhibitors to induce origin firing
