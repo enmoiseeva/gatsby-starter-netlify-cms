@@ -26,7 +26,17 @@ export const AboutPageTemplate = ({
 
       <div className="container">
         <ResearchBlurb gridItems={blurbs_one.blurbs} className="mb-5" />
-        <PreviewCompatibleImage imageInfo={image} />
+        <div className="columns is-multiline is-align-items-center research-blurbs">
+          <div className="column is-4">
+            <p className="is-size-5 mb-4 pt-3 has-text-weight-bold">Funding:</p>
+            <img src="/img/funding.jpg" alt="" />
+          </div>
+          <div className="column is-8">
+            <PreviewCompatibleImage
+              imageInfo={{ ...image, style: { maxWidth: "600px" } }}
+            />
+          </div>
+        </div>
         <ResearchBlurb
           gridItems={blurbs_two.blurbs}
           className="bigger-headers mt-3 pb-5 mb-5"
