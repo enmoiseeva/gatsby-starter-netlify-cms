@@ -28,7 +28,7 @@ export const AboutPageTemplate = ({
         <ResearchBlurb gridItems={blurbs_one.blurbs} className="mb-5" />
         <div className="columns is-multiline is-align-items-center research-blurbs">
           <div className="column is-4">
-            <p className="is-size-5 mb-4 pt-3 has-text-weight-bold">Funding:</p>
+            <p className=" mb-4 pt-3 has-text-weight-bold">Funding:</p>
             <img src="/img/funding.jpg" alt="" />
           </div>
           <div className="column is-8">
