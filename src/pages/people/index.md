@@ -11,9 +11,11 @@ header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
 blurbs:
+  - title: 2022-...
+    text: Pille Leesmäe, Bachelor's student
   - title: 2020 - . . .
     text: Sigvard Vällo, Bachelor's Student
-  - title: 2019 - . . .
+  - title: 2019 -2022
     text: Hele Anderspuk, Master's Student
 header_block2: Sameera Vipat, PhD student
 image_block2: /img/sameera.jpg
