@@ -17,6 +17,9 @@ export const PeoplePageTemplate = ({
   header_block2,
   image_block2,
   text_block2,
+  header_block3,
+  image_block3,
+  text_block3,
 }) => {
   return (
     <section>
@@ -48,13 +51,21 @@ export const PeoplePageTemplate = ({
               <HTMLContent content={text_block2} className="people-main-text" />
             </div>
           </div>
+          <div className="people-main mt-5 pb-5 pt-3">
+            <h2 className="title is-size-4">{header_block3}</h2>
+            <div className="is-flex">
+              <div className="people-main-image">
+                <PreviewCompatibleImage imageInfo={{ image: image_block3 }} />
+              </div>
+              <HTMLContent content={text_block3} className="people-main-text" />
+            </div>
+          </div>
 
           <h2 className="title is-size-4  pt-3">{header2}</h2>
           <StudentBlurb
             gridItems={blurbs}
             className="bigger-headers mt-3 pb-5 mb-5"
           />
-          
         </div>
       </div>
     </section>
@@ -72,6 +83,9 @@ PeoplePageTemplate.propTypes = {
   header_block2: PropTypes.string,
   image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   text_block2: PropTypes.string,
+  header_block3: PropTypes.string,
+  image_block3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  text_block3: PropTypes.string,
 };
 
 const PeoplePage = ({ data }) => {
@@ -90,6 +104,9 @@ const PeoplePage = ({ data }) => {
         header_block2={post.frontmatter.header_block2}
         image_block2={post.frontmatter.image_block2}
         text_block2={post.frontmatter.text_block2}
+        header_block3={post.frontmatter.header_block3}
+        image_block3={post.frontmatter.image_block3}
+        text_block3={post.frontmatter.text_block3}
       />
     </Layout>
   );
@@ -135,6 +152,15 @@ export const peoplePageQuery = graphql`
           }
         }
         text_block2
+        header_block3
+        image_block3 {
+          childImageSharp {
+            fluid(maxWidth: 180, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        text_block3
       }
     }
   }
