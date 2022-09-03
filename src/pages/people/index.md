@@ -6,7 +6,7 @@ subtitle: >-
   <p>Motivated bachelor and master degree students are welcome to join! Please
   email with inquiries.</p> 
 
-  <p>If you are interested in doing a postdoc with us, we are happy to help you apply for a <a href="https://www.etag.ee/en/funding/mobility-funding/postdoctoral-researcher-grant/">postdoctoral fellowship</a>, please email with inquiries! </p>
+  <p>If you are interested in doing a postdoc with us, we are happy to help you apply for a MSCA postdoctoral fellowship, please email with inquiries! </p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
@@ -14,11 +14,13 @@ image_block2: /img/sameera.jpg
 image_block3: /img/syed.jpg
 blurbs:
   - title: 2022-...
+    text: Marleen Mikk, Master's student
+  - title: 2022-...
     text: Pille Leesmäe, Bachelor's student
-  - title: 2020 - . . .
-    text: Sigvard Vällo, Bachelor's Student
+  - title: 2020 - 2022
+    text: Sigvard Vällo, BSc. Graduated in Jun 2022.
   - title: 2019 -2022
-    text: Hele Anderspuk, Master's Student. Graduated in Jan 2022.
+    text: Hele Anderspuk, MSc. Graduated in Jan 2022.
 header_block2: Sameera Vipat, PhD student
 text_block2: <p>I did a Master's in Microbiology, where I studied poxvirus-host
   interactions and developed a method for recombinant vaccinia virus generation.
