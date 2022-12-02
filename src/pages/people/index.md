@@ -12,6 +12,7 @@ image: /img/av-f_orig.jpg
 header2: Students
 image_block2: /img/sameera.jpg
 image_block3: /img/syed.jpg
+image_block4: /img/naga.jpg
 blurbs:
   - title: 2022 - . . .
     text: Marleen Mikk, Master's student
@@ -36,6 +37,8 @@ text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   working on&nbsp;the topic of&nbsp;identification of&nbsp;new players
   in&nbsp;replication initiation.</p>
 header_block3: Syed Shahid Musvi, PhD student
+text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular and Molecular Oncology with a&nbsp;thesis on&nbsp;the role of&nbsp;miRNA in&nbsp;oral carcinogenesis. My&nbsp;most recent studies focused on&nbsp;delineating the role of&nbsp;a&nbsp;microcephaly linked gene in&nbsp;cancer. Understanding this could aid in&nbsp;identifying new germline associated cancer biomarkers, and the development of&nbsp;new drugs that target cancer cell division. In&nbsp;my&nbsp;current lab, I&nbsp;work on&nbsp;the cancer-associated variants of&nbsp;various replication proteins.</p>
+header_block4: Naga Raviteja Chavata, PhD student
 ---
 
 ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019. My research interests include the investigation of the initiation in DNA replication in human cells. During my postdoctoral training I have studied the effects of ATR inhibition in DNA replication initiation and discovered a mechanism of dormant origin suppression in the absence of DNA damage.
