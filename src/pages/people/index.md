@@ -26,7 +26,7 @@ header_block2: Sameera Vipat, PhD student
 text_block2: <p>I did a Master's in Microbiology, where I studied poxvirus-host
   interactions and developed a method for recombinant vaccinia virus generation.
   My PhD project will be focused on the roles that the protein Timeless plays in
-  the initiation of DNA replication in human cells.</p>
+  the initiation of DNA replication in human cells.</p><p><a href="https://www.researchgate.net/profile/Sameera-Vipat-2" target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp;<a href="mailto:sameera.vipat@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>&nbsp;<a href="https://scholar.google.com/citations?user=FQPR7oMAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">​Google Scholar</a></p>
 text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   University of&nbsp;Kashmir. My&nbsp;recent project was to&nbsp;develop
   a&nbsp;high-throughput screening technology to&nbsp;identify molecular
@@ -35,9 +35,9 @@ text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   epicenter of&nbsp;fibroblast activation pathways, involved in&nbsp;the
   development of&nbsp;tissue fibrosis. Currently, I&nbsp;am a&nbsp;Ph.D. student
   working on&nbsp;the topic of&nbsp;identification of&nbsp;new players
-  in&nbsp;replication initiation.</p>
+  in&nbsp;replication initiation.</p><p><a href="https://www.researchgate.net/profile/Syed-Musvi" target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp;<a href="https://www.linkedin.com/in/syed-shahid-musvi-a38822a5/" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;<a href="https://scholar.google.com/citations?user=yGFRF-UAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">​Google Scholar</a></p>
 header_block3: Syed Shahid Musvi, PhD student
-text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular and Molecular Oncology with a&nbsp;thesis on&nbsp;the role of&nbsp;miRNA in&nbsp;oral carcinogenesis. My&nbsp;most recent studies focused on&nbsp;delineating the role of&nbsp;a&nbsp;microcephaly linked gene in&nbsp;cancer. Understanding this could aid in&nbsp;identifying new germline associated cancer biomarkers, and the development of&nbsp;new drugs that target cancer cell division. In&nbsp;my&nbsp;current lab, I&nbsp;work on&nbsp;the cancer-associated variants of&nbsp;various replication proteins.</p>
+text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular and Molecular Oncology with a&nbsp;thesis on&nbsp;the role of&nbsp;miRNA in&nbsp;oral carcinogenesis. My&nbsp;most recent studies focused on&nbsp;delineating the role of&nbsp;a&nbsp;microcephaly linked gene in&nbsp;cancer. Understanding this could aid in&nbsp;identifying new germline associated cancer biomarkers, and the development of&nbsp;new drugs that target cancer cell division. In&nbsp;my&nbsp;current lab, I&nbsp;work on&nbsp;the cancer-associated variants of&nbsp;various replication proteins.</p><p><a href="https://www.researchgate.net/profile/Raviteja-Chavata" target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp;<a href="https://in.linkedin.com/in/ravitejachavata" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;<a href="https://orcid.org/0000-0002-9679-0785" target="_blank" rel="noopener noreferrer">ORCID</a></p>
 header_block4: Naga Raviteja Chavata, PhD student
 ---
 
