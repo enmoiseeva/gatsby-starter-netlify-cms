@@ -21,7 +21,7 @@ export const PublicationsPageTemplate = ({ title, content }) => {
     var returnmode = "&retmode=json";
     var returnmax = "&retmax=100";
     var searchterm =
-      "&term=Moiseeva[Author] AND (Bakkenist[Author] or Barlev[author] or konstantinova[author]))";
+      "&term=(Moiseeva TN[Author - Last] NOT Russian[language]) or (Moiseeva [Author] and (bakkenist[author] or konstantinova[author] or barlev[author]))";
     var returntype = "&rettype=abstract";
     var idURL =
       pubmedSearchAPI + database + returnmode + returnmax + searchterm;
