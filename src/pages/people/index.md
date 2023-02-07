@@ -14,7 +14,7 @@ blurbs:
   - title: 2022 - . . .
     text: Pille Leesmäe, Bachelor's student
   - title: "2023"
-    text: Karina Sapovalovaite, ERASMUS exchange MSc student from Vilnius
+    text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius
   - title: "2023"
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
