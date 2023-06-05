@@ -11,6 +11,8 @@ header: Tatiana Moiseeva, principal investigator
 image: /img/av-f_orig.jpg
 header2: Students
 blurbs:
+  - title: 2023-...
+    text: Arthur Morgunov, Bachelor's student
   - title: 2022 - . . .
     text: Pille Leesmäe, Bachelor's student
   - title: "2023"
