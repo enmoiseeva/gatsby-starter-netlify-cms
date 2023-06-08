@@ -13,12 +13,12 @@ header2: Students
 blurbs:
   - title: 2023-...
     text: Arthur Morgunov, Bachelor's student
-  - title: 2022 - . . .
-    text: Pille Leesmäe, Bachelor's student
   - title: "2023"
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius
   - title: "2023"
     text: Olena Kachalova, visiting PhD student from Kyiv
+  - title: 2022 - 2023
+    text: Pille Leesmäe, BSc. Graduated in Jun 2023
   - title: 2022 - 2023
     text: Marleen Mikk, Master's student (switched program)
   - title: 2020 - 2022
