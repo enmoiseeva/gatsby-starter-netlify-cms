@@ -8,7 +8,7 @@ subtitle: >-
 
   <p>If you are interested in doing a postdoc with us, we are happy to help you apply for a MSCA postdoctoral fellowship, please email with inquiries! </p>
 header: Tatiana Moiseeva, principal investigator
-image: /img/av-f_orig.jpg
+image: /img/tm.-june-2023.png
 header2: Students
 blurbs:
   - title: 2023-...
