@@ -28,9 +28,12 @@ export const PeoplePageTemplate = ({
     <section>
       <div className="header-section mb-5 ml-mobile-5">
         <div className="container">
-          <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
-            {title}
-          </h2>
+          <div className="people-flex">
+            <h2 className="title is-size-1 has-text-weight-bold is-bold-light">
+              {title}
+            </h2>
+            <img src="/img/lab.jpg" alt="" />
+          </div>
           <HTMLContent content={subtitle} className="header-section-text" />
         </div>
       </div>

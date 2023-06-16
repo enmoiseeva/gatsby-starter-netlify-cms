@@ -133,3 +133,14 @@ body {
 .people-other-text {
   line-height: 30px;
 }
+
+.people-flex {
+  .title {
+    margin-right: 30px;
+  }
+  @include tablet {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 30px;
+  }
+}
