@@ -3,10 +3,12 @@ path: /people
 templateKey: people-page
 title: People
 subtitle: >-
-  <p>Motivated bachelor and master degree students are welcome to join! Please
-  email with inquiries.</p> 
+  <p>The lab is slowly moving from Tallinn to PIttsburgh, so unfortunately we
+  can't take any new Tallinn-based students </p> 
 
-  <p>If you are interested in doing a postdoc with us, we are happy to help you apply for a MSCA postdoctoral fellowship, please email with inquiries! </p>
+  <p>If you are interested in a postdoc or technician positions in Pittsburgh starting in 2024, please email with inquiries! </p>
+
+  <p>If you would like to join our Pittsburgh lab as a PhD student, please apply to HCC Oncology Graduate Program </p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/tm.-june-2023.png
 header2: Students
