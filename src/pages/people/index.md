@@ -16,7 +16,7 @@ blurbs:
   - title: 2023-...
     text: Arthur Morgunov, Bachelor's student
   - title: 2023-...
-    text: Evelina Koop, BSc student
+    text: Evelina Koop, Bachelor's student
   - title: "2023"
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius
   - title: "2023"
