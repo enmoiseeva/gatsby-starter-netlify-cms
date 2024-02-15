@@ -18,15 +18,15 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
     >
       <div className="is-flex-tablet container">
         <div className="main-intro-logo mr-5 pr-5">
+          <img src={`${withPrefix("/")}img/pitt-logo.png`} width="153" alt="" />
           <img
             src={`${withPrefix("/")}img/taltech-logo.png`}
-            width="177"
-            height="174"
+            width="153"
             alt=""
           />
         </div>
-        <div className="is-flex is-justify-content-space-around is-align-items-flex-start is-flex-direction-column">
-          <h1 className="has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-widescreen mb-3">
+        <div className="is-flex is-justify-content-center is-align-items-flex-start is-flex-direction-column">
+          <h1 className="has-text-weight-bold is-size-5-mobile is-size-4-tablet is-size-3-widescreen mb-5">
             {title}
           </h1>
           <h3 className="has-text-weight-bold is-size-7-mobile is-size-6-tablet is-size-5-widescreen">
