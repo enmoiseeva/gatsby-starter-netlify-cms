@@ -76,7 +76,6 @@ text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular
   noreferrer">ORCID</a></p>
 header_block4: Naga Raviteja Chavata, PhD student
 ---
-
-​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019. My research interests include the investigation of the initiation in DNA replication in human cells. During my postdoctoral training I have studied the effects of ATR inhibition in DNA replication initiation and discovered a mechanism of dormant origin suppression in the absence of DNA damage.
+As an Assistant Professor at the University of Pittsburgh and UPMC Hillman Cancer Center, my research interests include the investigation of the initiation in DNA replication in human cells, which is both an important basic science question and can help us fight cancer. ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019,  and moved to Pittsburgh in early 2024. 
 
 [​Google Scholar](https://scholar.google.com/citations?user=NtQe0-MAAAAJ&hl=en) [ResearchGate](https://www.researchgate.net/profile/Tatiana_Moiseeva) [LinkedIn](https://ee.linkedin.com/in/tatiana-moiseeva-382b4b54) [ORCID](https://orcid.org/0000-0002-1181-9519)
