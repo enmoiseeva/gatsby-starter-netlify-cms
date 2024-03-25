@@ -15,9 +15,10 @@ blurbs:
     text: Arthur Morgunov, Bachelor's student
   - title: 2023-...
     text: Evelina Koop, Bachelor's student
-  - title: "2023"
-    text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius
-  - title: "2023"
+  - title: 2023-2024
+    text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
+      in Jan 2024
+  - title: 2023-2024
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
     text: Pille Leesmäe, BSc. Graduated in Jun 2023
