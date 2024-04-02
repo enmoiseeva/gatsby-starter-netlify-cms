@@ -17,17 +17,19 @@ blurbs:
     text: Evelina Koop, Bachelor's student
   - title: 2023-2024
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
-      in Jan 2024
+      in Jan 2024. Now at University of Helsinki
   - title: 2023-2024
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
-    text: Pille Leesmäe, BSc. Graduated in Jun 2023
+    text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a Master's student at
+      TalTech
   - title: 2022 - 2023
     text: Marleen Mikk, Master's student (switched program)
   - title: 2020 - 2022
-    text: Sigvard Vällo, BSc. Graduated in Jun 2022.
+    text: Sigvard Vällo, BSc. Graduated in Jun 2022. Now a Master's student at
+      Uppsala University and Karolinska Institute.
   - title: 2019 - 2022
-    text: Hele Anderspuk, MSc. Graduated in Jan 2022.
+    text: Hele Anderspuk, MSc. Graduated in Jan 2022. Now works at Pfeizer Estonia.
 header_block2: Sameera Vipat, PhD student
 image_block2: /img/sameera.jpg
 image_block3: /img/syed.jpg
