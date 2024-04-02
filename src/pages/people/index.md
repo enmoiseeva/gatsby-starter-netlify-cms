@@ -3,10 +3,10 @@ path: /people
 templateKey: people-page
 title: People
 subtitle: >-
-  <p>If you are interested in a <b>postdoc</b> or <b>technician</b> positions in
-  Pittsburgh starting in 2024, please email with inquiries! </p>
+  <p>If you are interested in a <b>postdoc</b> or <b>technician</b> positions,
+  please email with inquiries! </p>
 
-  <p>If you would like to join our Pittsburgh lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
+  <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/tm.-june-2023.png
 header2: Students
