@@ -24,7 +24,7 @@ export function Social() {
       </a>
       <a
         title="mail"
-        href="mailto:tatiana.moiseeva@taltech.ee"
+        href="mailto:tatiana.moiseeva@pitt.edu"
         className="mail-icon"
       >
         <Mail />
