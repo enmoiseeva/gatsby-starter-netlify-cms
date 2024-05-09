@@ -34,6 +34,7 @@ header_block2: Sameera Vipat, PhD student
 image_block2: /img/sameera.jpg
 image_block3: /img/syed.jpg
 image_block4: /img/naga.jpg
+image_block5: /img/zamalloa.jpg
 text_block2: <p>I did a Master's in Microbiology, where I studied poxvirus-host
   interactions and developed a method for recombinant vaccinia virus generation.
   My PhD project will be focused on the roles that the protein Timeless plays in
@@ -76,6 +77,15 @@ text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular
   href="https://orcid.org/0000-0002-9679-0785" target="_blank" rel="noopener
   noreferrer">ORCID</a></p>
 header_block4: Naga Raviteja Chavata, PhD student
+header_block5: Gregory Zamalloa, postdoctoral associate
+text_block5: <p>I&nbsp;bring a&nbsp;multidisciplinary sauce to&nbsp;the team&#58; I&nbsp;did a&nbsp;PhD in&nbsp;Cancer Cell Biology at&nbsp;the Manning Lab, WPI; where&nbsp;I worked on&nbsp;a&nbsp;screen for synthetic lethal interactions between&nbsp;RB and Epigenetic modulators, specifically PARP; and&nbsp;I characterized it&nbsp;at&nbsp;the DNA replication level. I&nbsp;did a&nbsp;Postdoc at&nbsp;the same lab for the publication of&nbsp;my&nbsp;first-author paper. Then, I&nbsp;did my&nbsp;2nd Postdoc in&nbsp;Biochemistry at&nbsp;the Arguello Lab, WPI; where&nbsp;I performed Membrane Protein Purification to&nbsp;characterize the kinetics and stoichiometry of&nbsp;copper binding to&nbsp;CuiT from Salmonella enterica. I&nbsp;started my&nbsp;3rd Postdoc at&nbsp;the Moiseeva Lab, UPMC; aiming to&nbsp;identify and characterize novel contributors of&nbsp;the DNA Replication Initiation machinery, as&nbsp;well as&nbsp;to&nbsp;launch my&nbsp;independent career as&nbsp;a&nbsp;Scientist.</p><p><a
+  href="https://in.linkedin.com/in/gregory-zamalloa" target="_blank"
+  rel="noopener noreferrer">LinkedIn</a>&nbsp;<a
+  href="https://orcid.org/0000-0001-5555-5482" target="_blank" rel="noopener
+  noreferrer">ORCID</a>&nbsp;<a
+  href="https://scholar.google.com/citations?user=CXEpjI0AAAAJ&hl=en&oi=ao" target="_blank"
+  rel="noopener noreferrer">Google Scholar</a></p>
+
 ---
 As an Assistant Professor at the University of Pittsburgh and UPMC Hillman Cancer Center, my research interests include the investigation of the initiation in DNA replication in human cells, which is both an important basic science question and can help us fight cancer. ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019,  and moved to Pittsburgh in early 2024. 
 

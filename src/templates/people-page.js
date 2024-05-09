@@ -23,6 +23,9 @@ export const PeoplePageTemplate = ({
   header_block4,
   image_block4,
   text_block4,
+  header_block5,
+  image_block5,
+  text_block5,
 }) => {
   return (
     <section>
@@ -46,6 +49,15 @@ export const PeoplePageTemplate = ({
                 <PreviewCompatibleImage imageInfo={{ image }} />
               </div>
               <HTMLContent content={content} className="people-main-text" />
+            </div>
+          </div>
+          <div className="people-main mt-6 pb-5 pt-3">
+            <h2 className="title is-size-4">{header_block5}</h2>
+            <div className="is-flex">
+              <div className="people-main-image">
+                <PreviewCompatibleImage imageInfo={{ image: image_block5 }} />
+              </div>
+              <HTMLContent content={text_block5} className="people-main-text" />
             </div>
           </div>
           <div className="people-main mt-5 pb-5 pt-3">
@@ -104,6 +116,9 @@ PeoplePageTemplate.propTypes = {
   header_block4: PropTypes.string,
   image_block4: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   text_block4: PropTypes.string,
+  header_block5: PropTypes.string,
+  image_block5: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  text_block5: PropTypes.string,
 };
 
 const PeoplePage = ({ data }) => {
@@ -128,6 +143,9 @@ const PeoplePage = ({ data }) => {
         header_block4={post.frontmatter.header_block4}
         image_block4={post.frontmatter.image_block4}
         text_block4={post.frontmatter.text_block4}
+        header_block5={post.frontmatter.header_block5}
+        image_block5={post.frontmatter.image_block5}
+        text_block5={post.frontmatter.text_block5}
       />
     </Layout>
   );
@@ -191,6 +209,15 @@ export const peoplePageQuery = graphql`
           }
         }
         text_block4
+        header_block5
+        image_block5 {
+          childImageSharp {
+            fluid(maxWidth: 180, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        text_block5
       }
     }
   }

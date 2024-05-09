@@ -24,6 +24,9 @@ const PeoplePagePreview = ({ entry, getAsset }) => {
         header_block4={data.header_block4}
         image_block4={getAsset(data.image_block4)}
         text_block4={data.text_block4}
+        header_block5={data.header_block5}
+        image_block5={getAsset(data.image_block5)}
+        text_block5={data.text_block5}
       />
     );
   } else {
