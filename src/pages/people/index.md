@@ -17,7 +17,7 @@ blurbs:
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
       in Jan 2024. Now at University of Helsinki
   - title: 2023-2024
-    text: Arthur Morgunov, Bachelor's student
+    text: Arthur Morgunov, BSc. Graduated in Jun 2024.
   - title: 2023-2024
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
