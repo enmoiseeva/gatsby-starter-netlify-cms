@@ -12,12 +12,12 @@ header: Tatiana Moiseeva, principal investigator
 header2: Students
 blurbs:
   - title: 2023-...
-    text: Arthur Morgunov, Bachelor's student
-  - title: 2023-...
     text: Evelina Koop, Bachelor's student
   - title: 2023-2024
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
       in Jan 2024. Now at University of Helsinki
+  - title: 2023-2024
+    text: Arthur Morgunov, Bachelor's student
   - title: 2023-2024
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
