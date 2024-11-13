@@ -43,13 +43,16 @@ export const IndexPageTemplate = ({ image, title, subheading }) => (
             <NewsRoll />
           </div>
           <div className="index-twitter column is-one-quarter">
-            <a
-              className="twitter-timeline"
-              href="https://twitter.com/Tat1anaMoiseeva?ref_src=twsrc%5Etfw"
-            >
-              Tweets by Tat1anaMoiseeva
-            </a>
-          </div>
+            <h1>Posts from <a href="https://bsky.app/profile/tat1anamoiseeva.bsky.social" target="_blank">@tat1anamoiseeva.bsky.social</a></h1>
+            <div className="index-twitter-inner">
+              <bsky-embed
+                username="tat1anamoiseeva.bsky.social"
+                mode=""
+                limit="5"
+                >  
+              </bsky-embed> 
+              </div>
+            </div>
         </div>
       </div>
     </section>

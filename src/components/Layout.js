@@ -11,6 +11,7 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+         <script async src="/bsky-embed.js" charset="utf-8"></script>
       </Helmet>
       <Navbar />
       <div>{children}</div>
