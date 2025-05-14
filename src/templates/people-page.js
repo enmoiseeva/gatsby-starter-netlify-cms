@@ -53,16 +53,8 @@ export const PeoplePageTemplate = ({
               <HTMLContent content={content} className="people-main-text" />
             </div>
           </div>
+          
           <div className="people-main mt-6 pb-5 pt-3">
-            <h2 className="title is-size-4">{header_block5}</h2>
-            <div className="is-flex">
-              <div className="people-main-image">
-                <PreviewCompatibleImage imageInfo={{ image: image_block5 }} />
-              </div>
-              <HTMLContent content={text_block5} className="people-main-text" />
-            </div>
-          </div>
-          <div className="people-main mt-5 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block2}</h2>
             <div className="is-flex">
               <div className="people-main-image">
@@ -89,8 +81,17 @@ export const PeoplePageTemplate = ({
               <HTMLContent content={text_block4} className="people-main-text" />
             </div>
           </div>
+          <div className="people-main mt-5 pb-5 pt-3">
+            <h2 className="title is-size-4">{header_block5}</h2>
+            <div className="is-flex">
+              <div className="people-main-image">
+                <PreviewCompatibleImage imageInfo={{ image: image_block5 }} />
+              </div>
+              <HTMLContent content={text_block5} className="people-main-text" />
+            </div>
+          </div>
 
-          <h2 className="title is-size-4  pt-3">{header2}</h2>
+          <h2 className="title is-size-4  pt-5 mt-3">{header2}</h2>
           <StudentBlurb
             gridItems={blurbs}
             className="bigger-headers mt-3 pb-5 mb-5"
