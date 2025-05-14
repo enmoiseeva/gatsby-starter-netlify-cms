@@ -12,8 +12,10 @@ export const PeoplePageTemplate = ({
   image,
   header,
   header2,
+  header3,
   content,
   blurbs,
+  blurbs3,
   header_block2,
   image_block2,
   text_block2,
@@ -93,6 +95,11 @@ export const PeoplePageTemplate = ({
             gridItems={blurbs}
             className="bigger-headers mt-3 pb-5 mb-5"
           />
+          <h2 className="title is-size-4  pt-3">{header3}</h2>
+          <StudentBlurb
+            gridItems={blurbs3}
+            className="bigger-headers mt-3 pb-5 mb-5"
+          />
         </div>
       </div>
     </section>
@@ -104,9 +111,11 @@ PeoplePageTemplate.propTypes = {
   subtitle: PropTypes.string,
   header: PropTypes.string,
   header2: PropTypes.string,
+  header3: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node,
   blurbs: PropTypes.array,
+  blurbs3: PropTypes.array,
   header_block2: PropTypes.string,
   image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   text_block2: PropTypes.string,
@@ -131,8 +140,10 @@ const PeoplePage = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         header={post.frontmatter.header}
         header2={post.frontmatter.header2}
+        header3={post.frontmatter.header3}
         image={post.frontmatter.image}
         blurbs={post.frontmatter.blurbs}
+        blurbs3={post.frontmatter.blurbs3}
         content={post.html}
         header_block2={post.frontmatter.header_block2}
         image_block2={post.frontmatter.image_block2}
@@ -180,8 +191,13 @@ export const peoplePageQuery = graphql`
           title
           text
         }
+        blurbs3 {
+          title
+          text
+        }
         header
         header2
+        header3
         header_block2
         image_block2 {
           childImageSharp {
