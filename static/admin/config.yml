@@ -59,11 +59,17 @@ collections:
           - {label: Header, name: header, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: Header2, name: header2, widget: string}
-          - {label: Blurbs, name: blurbs, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}]}
-          - {label: "Another header", name: header_block2, widget: string}
-          - {label: "Another image", name: image_block2, widget: image}
-          - {label: "Another text", name: text_block2, widget: text}
+          - {label: "Another header", name: header_block3, widget: string}
+          - {label: "Another image", name: image_block3, widget: image}
+          - {label: "Another text", name: text_block3, widget: "markdown"}
+          - {label: "Another header", name: header_block4, widget: string}
+          - {label: "Another image", name: image_block4, widget: image}
+          - {label: "Another text", name: text_block4, widget: "markdown"}
+          - {label: "Another header", name: header_block5, widget: string}
+          - {label: "Another image", name: image_block5, widget: image}
+          - {label: "Another text", name: text_block5, widget: "markdown"}
+          - {label: "Alumni", name: blurbs3, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: text}]}
+
 
       - file: "src/pages/publications/index.md"
         label: "Publications"

@@ -9,25 +9,9 @@ subtitle: >-
 
   <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
 header: Tatiana Moiseeva, principal investigator
-header2: Students
-blurbs:
-  - title: 2023 - ...
-    text: Evelina Koop, Bachelor's student
-header_block2: Sameera Vipat, PhD student
-image_block2: /img/sameera.jpg
 image_block3: /img/syed.jpg
 image_block4: /img/naga.jpg
 image_block5: /img/harolikar.jpeg
-text_block2: <p>I did a Master's in Microbiology, where I studied poxvirus-host
-  interactions and developed a method for recombinant vaccinia virus generation.
-  My PhD project will be focused on the roles that the protein Timeless plays in
-  the initiation of DNA replication in human cells.</p><p><a
-  href="https://www.researchgate.net/profile/Sameera-Vipat-2" target="_blank"
-  rel="noopener noreferrer">ResearchGate</a>&nbsp;<a
-  href="mailto:sameera.vipat@gmail.com" target="_blank" rel="noopener
-  noreferrer">Email</a>&nbsp;<a
-  href="https://scholar.google.com/citations?user=FQPR7oMAAAAJ&hl=en&oi=ao"
-  target="_blank" rel="noopener noreferrer">​Google Scholar</a></p>
 text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   University of&nbsp;Kashmir. My&nbsp;recent project was to&nbsp;develop
   a&nbsp;high-throughput screening technology to&nbsp;identify molecular
@@ -69,6 +53,10 @@ header_block5: Rohan Harolikar, PhD student
 image: /img/tm.-june-2023.png
 header3: Alumni
 blurbs3:
+  - title: 2021 - 2025 
+    text: Sameera Vipat, PhD. Graduated in Jun 2025
+  - title: 2023 - 2025 
+    text: Evelina Koop, BSc. Graduated in Jun 2025
   - title: 2024 - 2025
     text: Gregory Zamalloa, postdoctoral associate
   - title: 2023 - 2024

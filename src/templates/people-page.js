@@ -14,11 +14,7 @@ export const PeoplePageTemplate = ({
   header2,
   header3,
   content,
-  blurbs,
   blurbs3,
-  header_block2,
-  image_block2,
-  text_block2,
   header_block3,
   image_block3,
   text_block3,
@@ -54,7 +50,7 @@ export const PeoplePageTemplate = ({
             </div>
           </div>
           
-          <div className="people-main mt-6 pb-5 pt-3">
+          {/* <div className="people-main mt-6 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block2}</h2>
             <div className="is-flex">
               <div className="people-main-image">
@@ -62,7 +58,7 @@ export const PeoplePageTemplate = ({
               </div>
               <HTMLContent content={text_block2} className="people-main-text" />
             </div>
-          </div>
+          </div> */}
           <div className="people-main mt-5 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block3}</h2>
             <div className="is-flex">
@@ -91,11 +87,7 @@ export const PeoplePageTemplate = ({
             </div>
           </div>
 
-          <h2 className="title is-size-4  pt-5 mt-3">{header2}</h2>
-          <StudentBlurb
-            gridItems={blurbs}
-            className="bigger-headers mt-3 pb-5 mb-5"
-          />
+        
           <h2 className="title is-size-4  pt-3">{header3}</h2>
           <StudentBlurb
             gridItems={blurbs3}
@@ -111,15 +103,15 @@ PeoplePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
   header: PropTypes.string,
-  header2: PropTypes.string,
+  // header2: PropTypes.string,
   header3: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.node,
-  blurbs: PropTypes.array,
+  // blurbs: PropTypes.array,
   blurbs3: PropTypes.array,
-  header_block2: PropTypes.string,
-  image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  text_block2: PropTypes.string,
+  // header_block2: PropTypes.string,
+  // image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  // text_block2: PropTypes.string,
   header_block3: PropTypes.string,
   image_block3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   text_block3: PropTypes.string,
@@ -140,15 +132,15 @@ const PeoplePage = ({ data }) => {
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
         header={post.frontmatter.header}
-        header2={post.frontmatter.header2}
+        // header2={post.frontmatter.header2}
         header3={post.frontmatter.header3}
         image={post.frontmatter.image}
-        blurbs={post.frontmatter.blurbs}
+        // blurbs={post.frontmatter.blurbs}
         blurbs3={post.frontmatter.blurbs3}
         content={post.html}
-        header_block2={post.frontmatter.header_block2}
-        image_block2={post.frontmatter.image_block2}
-        text_block2={post.frontmatter.text_block2}
+        // header_block2={post.frontmatter.header_block2}
+        // image_block2={post.frontmatter.image_block2}
+        // text_block2={post.frontmatter.text_block2}
         header_block3={post.frontmatter.header_block3}
         image_block3={post.frontmatter.image_block3}
         text_block3={post.frontmatter.text_block3}
@@ -188,26 +180,12 @@ export const peoplePageQuery = graphql`
             }
           }
         }
-        blurbs {
-          title
-          text
-        }
         blurbs3 {
           title
           text
         }
         header
-        header2
         header3
-        header_block2
-        image_block2 {
-          childImageSharp {
-            fluid(maxWidth: 180, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        text_block2
         header_block3
         image_block3 {
           childImageSharp {
