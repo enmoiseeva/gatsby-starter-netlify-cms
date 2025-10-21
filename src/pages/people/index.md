@@ -1,6 +1,7 @@
 ---
 path: /people
 templateKey: people-page
+header3: Alumni
 title: People
 subtitle: >-
   <p>The lab at TalTech does not accept new students.</p>
@@ -9,9 +10,9 @@ subtitle: >-
 
   <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
 header: Tatiana Moiseeva, principal investigator
+image: /img/tm.-june-2023.png
+header_block3: Syed Shahid Musvi, PhD student
 image_block3: /img/syed.jpg
-image_block4: /img/naga.jpg
-image_block5: /img/harolikar.jpeg
 text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   University of&nbsp;Kashmir. My&nbsp;recent project was to&nbsp;develop
   a&nbsp;high-throughput screening technology to&nbsp;identify molecular
@@ -27,7 +28,8 @@ text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   rel="noopener noreferrer">LinkedIn</a>&nbsp;<a
   href="https://scholar.google.com/citations?user=yGFRF-UAAAAJ&hl=en&oi=ao"
   target="_blank" rel="noopener noreferrer">​Google Scholar</a></p>
-header_block3: Syed Shahid Musvi, PhD student
+header_block4: Naga Raviteja Chavata, PhD student
+image_block4: /img/naga.jpg
 text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular
   and Molecular Oncology with a&nbsp;thesis on&nbsp;the role of&nbsp;miRNA
   in&nbsp;oral carcinogenesis. My&nbsp;most recent studies focused
@@ -43,32 +45,34 @@ text_block4: <p>I&nbsp;pursued my&nbsp;master&rsquo;s degree in&nbsp;Cellular
   rel="noopener noreferrer">LinkedIn</a>&nbsp;<a
   href="https://orcid.org/0000-0002-9679-0785" target="_blank" rel="noopener
   noreferrer">ORCID</a></p>
-header_block4: Naga Raviteja Chavata, PhD student
-text_block5: <p>I am a PhD student in the Oncology Graduate Program at Hillman Cancer Center. My research interest is primarily in genetics and genome instability, and through my PhD project I will study DNA replication, specifically focusing on the roles of DNA Polymerase Epsilon. In 2024 I completed a Biology BS degree with a minor in chemistry from Temple University, where I studied calcium ion signaling in melanoma.</p><p><a
-  href="https://www.linkedin.com/in/rohan-harolikar" target="_blank"
-  rel="noopener noreferrer">LinkedIn</a>&nbsp;<a
-  href="mailto:roh113@pitt.edu" target="_blank" rel="noopener
-  noreferrer">Email</a></p>
 header_block5: Rohan Harolikar, PhD student
-image: /img/tm.-june-2023.png
-header3: Alumni
+image_block5: /img/harolikar.jpeg
+text_block5: <p>I am a PhD student in the Oncology Graduate Program at Hillman
+  Cancer Center. My research interest is primarily in genetics and genome
+  instability, and through my PhD project I will study DNA replication,
+  specifically focusing on the roles of DNA Polymerase Epsilon. In 2024 I
+  completed a Biology BS degree with a minor in chemistry from Temple
+  University, where I studied calcium ion signaling in melanoma.</p><p><a
+  href="https://www.linkedin.com/in/rohan-harolikar" target="_blank"
+  rel="noopener noreferrer">LinkedIn</a>&nbsp;<a href="mailto:roh113@pitt.edu"
+  target="_blank" rel="noopener noreferrer">Email</a></p>
 blurbs3:
-  - title: 2021 - 2025 
+  - title: 2021 - 2025
     text: Sameera Vipat, PhD. Graduated in Jun 2025
-  - title: 2023 - 2025 
+  - title: 2023 - 2025
     text: Evelina Koop, BSc. Graduated in Jun 2025
   - title: 2024 - 2025
     text: Gregory Zamalloa, postdoctoral associate
   - title: 2023 - 2024
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
-      in Jan 2024. Now at University of Helsinki
+      in Jan 2024. Now PhD student at University of Helsinki
   - title: 2023 - 2024
-    text: Arthur Morgunov, BSc. Graduated in Jun 2024.
+    text: Arthur Morgunov, BSc. Graduated in Jun 2024. Now Masters' student at
+      TalTech.
   - title: 2023 - 2024
     text: Olena Kachalova, visiting PhD student from Kyiv
   - title: 2022 - 2023
-    text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a Master's student at
-      TalTech
+    text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a PhD student at TalTech
   - title: 2022 - 2023
     text: Marleen Mikk, Master's student (switched program)
   - title: 2020 - 2022
