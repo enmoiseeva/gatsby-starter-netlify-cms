@@ -65,16 +65,16 @@ blurbs3:
     text: Gregory Zamalloa, postdoctoral associate
   - title: 2023 - 2024
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
-      in Jan 2024. Now PhD student at University of Helsinki
+      in Jan 2024. Now a PhD student at University of Helsinki.
   - title: 2023 - 2024
-    text: Arthur Morgunov, BSc. Graduated in Jun 2024. Now Masters' student at
+    text: Arthur Morgunov, BSc. Graduated in Jun 2024. Now a Masters' student at
       TalTech.
   - title: 2023 - 2024
-    text: Olena Kachalova, visiting PhD student from Kyiv
+    text: Olena Kachalova, visiting PhD student from Kyiv.
   - title: 2022 - 2023
-    text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a PhD student at TalTech
+    text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a PhD student at TalTech.
   - title: 2022 - 2023
-    text: Marleen Mikk, Master's student (switched program)
+    text: Marleen Mikk, Master's student (switched program).
   - title: 2020 - 2022
     text: Sigvard Vällo, BSc. Graduated in Jun 2022. Now a Master's student at
       Uppsala University and Karolinska Institute.
