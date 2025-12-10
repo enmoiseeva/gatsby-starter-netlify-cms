@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
@@ -59,6 +60,9 @@ collections:
           - {label: Header, name: header, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
+           - {label: "Another header", name: header_block2, widget: string}
+          - {label: "Another image", name: image_block2, widget: image}
+          - {label: "Another text", name: text_block2, widget: "markdown"}
           - {label: "Another header", name: header_block3, widget: string}
           - {label: "Another image", name: image_block3, widget: image}
           - {label: "Another text", name: text_block3, widget: "markdown"}

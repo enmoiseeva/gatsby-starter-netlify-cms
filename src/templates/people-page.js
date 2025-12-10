@@ -15,6 +15,9 @@ export const PeoplePageTemplate = ({
   header3,
   content,
   blurbs3,
+  header_block2,
+  image_block2,
+  text_block2,
   header_block3,
   image_block3,
   text_block3,
@@ -50,7 +53,7 @@ export const PeoplePageTemplate = ({
             </div>
           </div>
           
-          {/* <div className="people-main mt-6 pb-5 pt-3">
+          <div className="people-main mt-6 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block2}</h2>
             <div className="is-flex">
               <div className="people-main-image">
@@ -58,7 +61,7 @@ export const PeoplePageTemplate = ({
               </div>
               <HTMLContent content={text_block2} className="people-main-text" />
             </div>
-          </div> */}
+          </div>
           <div className="people-main mt-5 pb-5 pt-3">
             <h2 className="title is-size-4">{header_block3}</h2>
             <div className="is-flex">
@@ -109,9 +112,9 @@ PeoplePageTemplate.propTypes = {
   content: PropTypes.node,
   // blurbs: PropTypes.array,
   blurbs3: PropTypes.array,
-  // header_block2: PropTypes.string,
-  // image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  // text_block2: PropTypes.string,
+  header_block2: PropTypes.string,
+  image_block2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  text_block2: PropTypes.string,
   header_block3: PropTypes.string,
   image_block3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   text_block3: PropTypes.string,
@@ -138,9 +141,9 @@ const PeoplePage = ({ data }) => {
         // blurbs={post.frontmatter.blurbs}
         blurbs3={post.frontmatter.blurbs3}
         content={post.html}
-        // header_block2={post.frontmatter.header_block2}
-        // image_block2={post.frontmatter.image_block2}
-        // text_block2={post.frontmatter.text_block2}
+        header_block2={post.frontmatter.header_block2}
+        image_block2={post.frontmatter.image_block2}
+        text_block2={post.frontmatter.text_block2}
         header_block3={post.frontmatter.header_block3}
         image_block3={post.frontmatter.image_block3}
         text_block3={post.frontmatter.text_block3}
@@ -186,6 +189,15 @@ export const peoplePageQuery = graphql`
         }
         header
         header3
+        header_block2
+        image_block2 {
+          childImageSharp {
+            fluid(maxWidth: 180, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        text_block2
         header_block3
         image_block3 {
           childImageSharp {

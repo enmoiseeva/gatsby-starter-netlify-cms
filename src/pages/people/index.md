@@ -11,6 +11,17 @@ subtitle: >-
   <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/tm.-june-2023.png
+image_block2: /img/olga.jpeg
+header_block2: Olga Fedorova, Research Scientist
+text_block2: <p>As a Research Scientist at the University of Pittsburgh, my work focuses on DNA replication
+  in human cells, including the identification of new factors involved in replication initiation. I
+  am broadly interested in understanding how dysregulation of replication contributes to cancer
+  development.</p><p>Before joining the University of Pittsburgh in 2025, I worked at the Institute of Cytology
+  until 2022, where I investigated novel transcriptional targets of the tumor suppressor p53 and
+  their roles in oncogenesis. From 2022 to 2025, I continued my research at the Weizmann
+  Institute of Science, studying how epigenetic mechanisms shape phenotypic plasticity in ER-
+  positive breast cancer and influence responses to endocrine therapy.</p>
+  <a href="https://scholar.google.com/citations?user=TeWCYQkAAAAJ&amp;hl=ru&amp;authuser=1" target="_blank" rel="noopener noreferrer">​Google Scholar</a>&nbsp; <a href="https://www.researchgate.net/profile/Olga-Fedorova-17?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp; <a href="https://www.linkedin.com/in/olga-fedorova-616a17a8/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 header_block3: Syed Shahid Musvi, PhD student
 image_block3: /img/syed.jpg
 text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the

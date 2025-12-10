@@ -16,9 +16,9 @@ const PeoplePagePreview = ({ entry, getAsset }) => {
         content={getAsset("body")}
         blurbs={data.blurbs || []}
         blurbs3={data.blurbs3 || []}
-        // header_block2={data.header_block2}
-        // image_block2={getAsset(data.image_block2)}
-        // text_block2={data.text_block2}
+        header_block2={data.header_block2}
+        image_block2={getAsset(data.image_block2)}
+        text_block2={data.text_block2}
         header_block3={data.header_block3}
         image_block3={getAsset(data.image_block3)}
         text_block3={data.text_block3}
