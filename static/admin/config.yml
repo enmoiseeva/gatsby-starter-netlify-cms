@@ -59,7 +59,7 @@ collections:
           - {label: Header, name: header, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
-           - {label: "Another header", name: header_block2, widget: string}
+          - {label: "Another header", name: header_block2, widget: string}
           - {label: "Another image", name: image_block2, widget: image}
           - {label: "Another text", name: text_block2, widget: "markdown"}
           - {label: "Another header", name: header_block3, widget: string}
