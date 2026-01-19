@@ -30,7 +30,7 @@ text_block2: <p>As a Research Scientist at the University of Pittsburgh, my work
   target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp; <a
   href="https://www.linkedin.com/in/olga-fedorova-616a17a8/" target="_blank"
   rel="noopener noreferrer">LinkedIn</a>
-header_block3: Syed Shahid Musvi, PhD student
+header_block3: Syed Shahid Musvi, PhD student (interrupted)
 image_block3: /img/syed.jpg
 text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   University of&nbsp;Kashmir. My&nbsp;recent project was to&nbsp;develop
@@ -38,11 +38,10 @@ text_block3: <p>I&nbsp;have completed my&nbsp;MSc in&nbsp;Biochemistry from the
   inhibitors of&nbsp;fibroblast activation. Using this technology,
   we&nbsp;intended to&nbsp;discover molecules that specifically target the
   epicenter of&nbsp;fibroblast activation pathways, involved in&nbsp;the
-  development of&nbsp;tissue fibrosis. Currently, I&nbsp;am a&nbsp;Ph.D. student
-  working on&nbsp;the topic of&nbsp;identification of&nbsp;new players
-  in&nbsp;replication initiation.</p><p><a
-  href="https://www.researchgate.net/profile/Syed-Musvi" target="_blank"
-  rel="noopener noreferrer">ResearchGate</a>&nbsp;<a
+  development of&nbsp;tissue fibrosis. Currently, I&nbsp;am working on&nbsp;the
+  topic of&nbsp;identification of&nbsp;new players in&nbsp;replication
+  initiation.</p><p><a href="https://www.researchgate.net/profile/Syed-Musvi"
+  target="_blank" rel="noopener noreferrer">ResearchGate</a>&nbsp;<a
   href="https://www.linkedin.com/in/syed-shahid-musvi-a38822a5/" target="_blank"
   rel="noopener noreferrer">LinkedIn</a>&nbsp;<a
   href="https://scholar.google.com/citations?user=yGFRF-UAAAAJ&hl=en&oi=ao"
