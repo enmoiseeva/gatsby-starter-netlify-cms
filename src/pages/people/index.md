@@ -76,7 +76,8 @@ blurbs3:
     text: Sameera Vipat, PhD. Graduated in Jun 2025. Now a postdoctoral fellow at
       Lund University, Sweden.
   - title: 2023 - 2025
-    text: Evelina Koop, BSc. Graduated in Jun 2025
+    text: Evelina Koop, BSc. Graduated in Jun 2025. Now a vocalist in a music band
+      Pale Alison.
   - title: 2024 - 2025
     text: Gregory Zamalloa, postdoctoral associate. Now docent at Universidad
       Continental, Arequipa, Peru.
