@@ -97,7 +97,8 @@ blurbs3:
     text: Sigvard Vällo, BSc. Graduated in Jun 2022. Now a Master's student at
       Uppsala University and Karolinska Institute.
   - title: 2019 - 2022
-    text: Hele Anderspuk, MSc. Graduated in Jan 2022. Now works at Pfeizer Estonia.
+    text: Hele Anderspuk, MSc. Graduated in Jan 2022. Now Head of Regulatory Affairs
+      Estonia at Pfeizer.
 ---
 As an Assistant Professor at the University of Pittsburgh and UPMC Hillman Cancer Center, my research interests include the investigation of the initiation in DNA replication in human cells, which is both an important basic science question and can help us fight cancer. ​I have started my independent research in the Department of Chemistry and Biotechnology, Tallinn University of Technology, in August 2019,  and moved to Pittsburgh in early 2024. 
 
