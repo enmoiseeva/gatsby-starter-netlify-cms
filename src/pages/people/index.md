@@ -78,7 +78,8 @@ blurbs3:
   - title: 2023 - 2025
     text: Evelina Koop, BSc. Graduated in Jun 2025
   - title: 2024 - 2025
-    text: Gregory Zamalloa, postdoctoral associate
+    text: Gregory Zamalloa, postdoctoral associate. Now docent at Universidad
+      Continental, Arequipa, Peru.
   - title: 2023 - 2024
     text: Karina Šapovalovaite, ERASMUS exchange MSc student from Vilnius, graduated
       in Jan 2024. Now a PhD student at University of Helsinki.
