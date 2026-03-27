@@ -5,7 +5,7 @@ header3: Alumni
 title: People
 subtitle: >-
   
-  <p>If you would like to join our lab as a <b>PhD student</b>, please apply to [Oncology Graduate Program](https://hillmanresearch.upmc.edu/training/phd-graduate/oncology)  at UPMC Hillman Cancer Center or [Molecular Pharmacology Graduate Program](https://www.gradbiomed.pitt.edu/programs/molecular-pharmacology) at Pitt</p>
+  <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program  at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at Pitt</p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/tm.-june-2023.png
 header_block2: Olga Fedorova, Research Scientist
@@ -87,7 +87,8 @@ blurbs3:
     text: Arthur Morgunov, BSc. Graduated in Jun 2024. Now a Masters' student at
       TalTech.
   - title: 2023 - 2024
-    text: Olena Kachalova, visiting PhD student from Kyiv.
+    text: Olena Kachalova, visiting PhD student from Kyiv. Now a
+      physician-dermatologist at Medicum, Tallinn, Estonia.
   - title: 2022 - 2023
     text: Pille Leesmäe, BSc. Graduated in Jun 2023. Now a PhD student at TalTech.
   - title: 2022 - 2023
