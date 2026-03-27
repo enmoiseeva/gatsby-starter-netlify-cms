@@ -4,11 +4,8 @@ templateKey: people-page
 header3: Alumni
 title: People
 subtitle: >-
-  <p>The lab at TalTech does not accept new students.</p>
-
-  <p>If you are interested in a <b>postdoc</b> or <b>technician</b> positions in Pittsburgh, please email with inquiries! </p>
-
-  <p>If you would like to join our lab as a <b>PhD student</b>, please apply to Oncology Graduate Program at UPMC Hillman Cancer Center or Molecular Pharmacology Graduate Program at UPitt</p>
+  
+  <p>If you would like to join our lab as a <b>PhD student</b>, please apply to [Oncology Graduate Program](https://hillmanresearch.upmc.edu/training/phd-graduate/oncology)  at UPMC Hillman Cancer Center or [Molecular Pharmacology Graduate Program](https://www.gradbiomed.pitt.edu/programs/molecular-pharmacology) at Pitt</p>
 header: Tatiana Moiseeva, principal investigator
 image: /img/tm.-june-2023.png
 header_block2: Olga Fedorova, Research Scientist
